@@ -1399,7 +1399,35 @@ body
     <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
 <canvas id="pdfViewer"></canvas>
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '41.pdf';
 
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
