@@ -105,7 +105,2385 @@ body
         });
     });
 </script>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
 
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '2.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script>
+
+ 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '3.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '4.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '5.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '6.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '7.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '8.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '9.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '10.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '11.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '12.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '13.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '14.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '15.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '16.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '17.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '18.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '19.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '20.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '21.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '22.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '23.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '24.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '25.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '26.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '27.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '28.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '29.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '30.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '31.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '32.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '33.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '34.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '35.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '36.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '37.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '38.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '39.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '40.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '41.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '41.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '42.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '43.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '44.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '45.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '46.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '47.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '48.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '49.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '50.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '51.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '52.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '53.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '54.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '55.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '56.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '57.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '58.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '59.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '60.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '61.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '62.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '63.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '64.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '65.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '66.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '67.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '68.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '69.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '70.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '71.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
+<canvas id="pdfViewer"></canvas>
+
+<script>
+    // Chemin vers votre fichier PDF
+    const pdfUrl = '72.pdf';
+
+    // Récupère le contexte du canvas
+    const canvas = document.getElementById('pdfViewer');
+    const context = canvas.getContext('2d');
+
+    // Charge le fichier PDF
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Charge la première page du PDF
+        pdf.getPage(1).then(page => {
+            // Définit l'échelle pour afficher la page
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+
+            // Ajuste la taille du canvas pour la page PDF
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // Dessine la page PDF sur le canvas
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+</script>
  
 </body>
 </html>
